@@ -1,0 +1,13 @@
+p{
+    element
+    color: red;
+}
+
+/* con el punto se indica que es una clase */
+.saludo{
+    color:aqua
+}
+
+.negritas{
+    font-weight: bold;
+}
