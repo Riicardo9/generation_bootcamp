@@ -1,5 +1,4 @@
 p{
-    element
     color: red;
 }
 
@@ -10,4 +9,8 @@ p{
 
 .negritas{
     font-weight: bold;
+}
+
+.motores {
+    width: 500px;
 }
