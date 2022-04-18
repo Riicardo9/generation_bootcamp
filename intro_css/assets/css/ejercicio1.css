@@ -1,0 +1,35 @@
+
+.titulo{
+    font-family: cursive;
+    text-align: center;
+}
+
+ .general{
+    width: 300px;
+    height: 26px;
+    font-family: cursive;
+    margin-left: auto;
+    margin-right: auto;
+ }
+    
+.caja1{
+    background-color:rgb(223, 137, 208);
+}
+
+.caja2{
+    font-family: cursive;
+    background-color:rgb(243, 129, 23);
+    border-radius: 5px;
+}
+
+.caja3{
+    background-color:rgb(235, 232, 234);
+    border-left: 5px solid;
+    border-left-color: rgb(241, 43, 165);
+}
+
+.caja4{
+    background-color:rgb(235, 232, 234);
+    border-top: 1px solid rgb(228, 89, 131);
+    border-bottom: 1px solid rgb(228, 89, 131);
+}

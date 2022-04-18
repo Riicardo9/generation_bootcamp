@@ -1,0 +1,80 @@
+    
+/*     metodologia bem son serie de reglas para darle nombre a las clases, no necesario regularmente son nombre muy largas*/
+
+
+/* Selector universal 
+    *{
+        background-color: black;
+
+    }
+    */
+    
+    /* Selector de etiqueta
+    <Elemento html> {
+
+    } */
+
+/* body{
+    background-color: cornflowerblue;
+} */
+
+
+    /* selector de clase */
+    .cuadro {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(155, 207, 102);
+        border: 1px solid rgb(235, 131, 131);
+        border-radius: 10%;
+        border-radius: 5px;
+    }
+
+
+    /* Selector de ID */
+    #forma{
+        width: 100px;
+        height: 100px;
+        background-color: rgba(56, 56, 56, .3);
+    }
+
+    .color{
+        background-color: aqua;
+    }
+
+    .color{
+        background-color: rgb(36, 36, 78);
+    }
+
+    .color{
+        background-color: blueviolet;
+    }
+
+    .color-texto{
+        color:rgba(17, 8, 63, 0.904);
+        background-color:rgb(129, 63, 76);
+    }
+
+
+    .forma{
+        width: auto;
+        height: auto;
+    }
+
+    /* se puede especificar el tipo de borde */
+    .borde{
+        border:3px solid black;
+        border-top: dashed;
+        border-right: solid ;
+        border-left: solid;
+        border-bottom: dashed ;
+        text-align: center;
+        line-height:100px;
+    }
+
+    p {
+
+        font-family: cursive;
+        font-size: 33px;
+        font-weight: 600;
+    }
+    
