@@ -1,0 +1,34 @@
+body{
+background-color: rgb(184, 208, 228);
+}
+
+.titulo{
+    text-align: right;
+}
+
+.titulo2{
+    color: red;
+    font-family: "Comic Sans", cursive;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+.año{
+    color: rgb(241, 156, 28);
+}
+
+.negritas{
+    color: rgb(170, 109, 19);
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.remarcado{
+    background-color:azure;
+    color:rgb(51, 90, 28)
+
+}

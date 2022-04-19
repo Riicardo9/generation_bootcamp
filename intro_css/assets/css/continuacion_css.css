@@ -1,0 +1,57 @@
+
+/* 1200px - pc
+750px - tablet
+450px - Celular
+
+Px unidades de medida fija
+%  unidades de medida relativa
+Rem 1 = (si el navegador cambia el tamaño de letra, tambien se acomodan los elementos)
+Em tamaño de fuente del elemento padre
+ */
+
+
+ /* Estaremos reseteando estas rpopiedaddes resetear estilos predeterminados por navegador
+ */
+ *{
+    box-sizing: border-box; /* Resetea - Ajusta los tamaños para que midan lo que queremos (cuadro 80, padding10 y border10 total 100 se incluyen) sin esto mediria 120 en total */
+    margin: 0;
+}
+
+
+body{
+    /* width: 1200px;
+    margin: 0 auto; centrado  */
+    margin:0; /* elimina margen en los extremos */
+}
+
+
+.forma{
+    width:100px;
+    height:100px;
+    font-size: 20px;
+    padding: 5px;
+    margin: auto; /* ancho fijo y espacio a los lados para que se pueda aplicar */
+    text-align: center  ;
+}
+
+.color{
+    background-color: blue;
+    border: 5px solid red;
+}
+
+p{
+    padding: 20px;
+    border:2px solid black;
+    margin:0; /* elimina el margen del elemento */
+}
+
+a{
+    width:50%;
+    padding: 10px;
+    border:3px solid red;
+    margin-top:20;
+    display:block; /* permite que se tome como un elemento de bloque (tome su espacio), ya que como se ejecuto la propiedad de cero margen, se ensimaria (colapso de margenes)  ...inlineblok caja en linea como si fuera en linea con texto*/
+    margin: 10px auto 0 auto; /* asigna valores arriba derecha, abajo izquierda // si solo tiene un valor asiga en todos los sentidos ese valor // si tiene dos valores empuja y centra (10px auto)*/
+    text-align: center;
+
+}

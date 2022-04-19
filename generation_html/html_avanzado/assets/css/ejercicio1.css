@@ -1,0 +1,39 @@
+table, tr td, th {
+    padding:"2";
+    spacing:"2";
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+body{
+    background-color: aqua;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.rojo{
+    color: red;
+}
+
+.center{
+    text-align: center;
+}
+
+.naranja{
+    background-color: chocolate;
+}
+
+.verde{
+    background-color: chartreuse;
+}
+
+.negro{
+    background-color: black;
+}
+
+.cursiva{
+
+}

@@ -1,0 +1,38 @@
+.formulario{
+    border: 10px solid rgb(153, 209, 209);
+    padding: 5px;
+    background-color: green;
+    width: 500px;
+    height: 430px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+.subs{
+    color: white;
+    margin-left: 50px;
+    margin-top: 200;
+}
+
+.acomodolabel{
+    display: inline-block;
+    width: 100px;
+    color: white;
+    margin-left:90px;
+}
+
+.colorFondo{
+    background-color:rgb(255, 255, 255);
+    border: 3px solid red;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.btn-enviar{
+    padding: 5px 20px;
+    margin-left:60px;
+    
+    
+}
+
