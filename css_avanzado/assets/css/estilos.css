@@ -31,8 +31,8 @@ h1{
     background-color: blueviolet;
     position:   sticky; /* sticky funciona tomando como referencia el padre (inicio) y necesita tope "top" abajo (fin)  *//* fixed;  cuando se hace scroll se mantiene fija como referencia toda la pagina*/
     top: 150px;
-    bottom: 50%;
-    right: 50%;
+   /*  bottom: 50%;
+    right: 50%; */
    /*  left: 300px;
     z-index: 11; */
 }
@@ -43,7 +43,8 @@ h1{
 }
 
 .padre{
-    width: 500px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     position: relative;
 }
+
