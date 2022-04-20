@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Formularios</title>
     <!-- Css propios -->
     <link rel="stylesheet" href="assets/css/formularios.css">
@@ -40,45 +41,38 @@
         
     </form>
     
-    <script>
-        const color= document.querySelector("#inputcolor")
-        console.log(color)
-        color.addEventListener("change",function(e){
-            document.body.style.backgroundColor=e.target.value;
-        })
-        
-    </script>
+    
 
     <hr>
     <h1>Formulario</h1>
-    <form class="formulario">
+    <form class="formulario" id="formularioDatos">
         <div class="nombre">
             <label class="acomodolabel" for="nombre">Nombre</label>
-            <input class="colorFondo" type="text" name="name" id="nombre" required placeholder="Nombre">
+            <input class="colorFondo" type="text" name="nombre" id="nombre" required placeholder="Nombre">
         </div>
 
         <div class="apellido">
             <label  class="acomodolabel" for="apellido">Apellido</label>
-            <input class="colorFondo" type="text" id="apellido"  placeholder="Apellido">
+            <input class="colorFondo" type="text" name="apellido" id="apellido"  placeholder="Apellido">
         </div>
 
         <div class="password">
             <label  class="acomodolabel" for="password">Constraseña</label>
-            <input class="colorFondo" type="password" id="password" required >
+            <input class="colorFondo" type="password" name="contraseña" id="password" required >
         </div>
 
         <div class="correo">
             <label  class="acomodolabel" for="correo">Correo</label>
-            <input class="colorFondo" type="email" id="nombre" required>
+            <input class="colorFondo" type="email" name="correo" id="nombre" required>
         </div>
 
         <div class="input">
             <input type="submit" value="enviar">
         </div>
 
-
-
     </form>
 
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

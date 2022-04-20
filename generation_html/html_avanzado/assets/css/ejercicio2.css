@@ -36,3 +36,53 @@
     
 }
 
+/* Sugerencia Yair */
+/*
+*{
+
+
+
+ }
+
+
+ .formularioo{
+    background-color: green;
+    color:white;
+    padding: 50px;
+    border: 5px solid rgb(153, 209, 209);
+    border-radius: 10px;
+    width: 330px;
+    margin: 0 auto;
+
+}
+
+.espaciadoo{
+    padding: 30;
+}
+
+label{
+    display:inline-block;
+    width: 50px;
+}
+
+input{
+    border: 3px solid red;
+    width: 200px;
+}
+
+.btn-enviarr{
+    border: none;
+    width: 120px;
+}
+
+.botonn{
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px dashed white;
+    width: 180px;
+}
+
+p{
+
+    padding: 10px 0;
+} */
