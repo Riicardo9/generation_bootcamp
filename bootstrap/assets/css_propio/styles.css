@@ -1,0 +1,17 @@
+/* Navbar */
+
+.img_logo{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;  /* para que la imagen se contenga en cierto tamaño */
+    object-position: center; /* que muetra una parte especifica de la imagen (centro arriba abajo derecha izq) */
+}
+
+
+.img-carrusel{
+
+    height: calc(100vh -76px); /* 50 vh; */
+    object-fit: cover; 
+    object-position: center;
+
+}
