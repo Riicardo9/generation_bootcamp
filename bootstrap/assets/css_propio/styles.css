@@ -10,7 +10,8 @@
 
 .img-carrusel{
 
-    height: calc(100vh -76px); /* 50 vh; */
+    /* height: calc(100vh -76px); */ /* 50 vh; */
+    height: 50vh;
     object-fit: cover; 
     object-position: center;
 
