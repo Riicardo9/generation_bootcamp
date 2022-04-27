@@ -3,12 +3,19 @@
 /* adicional dia mes y año para saber si ya cumplio o no los años */
 
 
-const formul = document.querySelector("#formulNac") 
+/* const formul = document.querySelector("#formulNac") 
 formul.addEventListener('submit', function(e){
     e.preventDefault()
+    let fechNac = new Date();
+
     var fechNac = document.getElementById("fechaNacimiento").value;
-    var hoy = new Date();
-    let anios = hoy - fechNac
-    console.log(anios)
+    console.log(fechNac)
     
-})
+}) */
+
+
+let calculo = new FormData(formulNac)
+console.log(calculo.get("fechaNacimiento"))
+
+
+
