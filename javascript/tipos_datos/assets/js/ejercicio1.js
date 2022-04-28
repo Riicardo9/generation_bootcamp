@@ -27,14 +27,14 @@ console.log('Tienes '+(anioAct-anioNac)+ ' años'); */
 /* NIVEL 2 */
 const anioActt = 2022;
 
-/* 2A - activado mediante onclick en la etiqueta html para invocar*/
+/* 2A - activado mediante onclick en la etiqueta html para invocar revisar etiquete html*/
 function obtenerEdad(){
     const anioNacc = parseInt(document.getElementById('anio').value);
     console.log(anioNacc);
     console.log(`Tienes ${anioActt - anioNacc} años`);
 }
 
-/* 2B - sin poner nada en etiquetas, ejecuta mediante listener (con ID)*/
+/* 2B - sin poner nada en etiquetas, ejecuta mediante listener (con ID de etiqueta html)*/
 const boton = document.getElementById('calcularr')
 console.log(boton);
 boton.addEventListener('click', ()=>{
@@ -61,16 +61,16 @@ console.log(diaActtt)
 /* const anioActtt = 2022, mesActtt=4, diaActtt=27; */
 
 function mostrarDatos(){
-    const anioNaccc = document.getElementById('anioo').value;
+    const anioNaccc = document.getElementById('anioo').value; //se obtiene el valor del input tipo date
     console.log(anioNaccc);
-    const nacDividido= anioNaccc.split("-")
+    const nacDividido= anioNaccc.split("-") //se separa por - (convierte a arreglo)
     console.log(nacDividido)
-    const aniodiv=parseInt(nacDividido[0])
-    const mesdiv=parseInt(nacDividido[1])
-    const diadiv=parseInt(nacDividido[2])
-    console.log(aniodiv,mesdiv,diadiv)
+    const anioCumple=parseInt(nacDividido[0]) // se recuperan las posiciones del arreglo y se convierten a entero
+    const mesCumple=parseInt(nacDividido[1])
+    const diaCumple=parseInt(nacDividido[2])
+    console.log(anioCumple,mesCumple,diaCumple) //comprobacion de valores
 
-    if(mesdiv<=mesActtt && diadiv<=diaActtt){
+    if(mesCumple<=mesActtt && diaCumple<=diaActtt){ /* comprueba que el mes y dia del cumpleaños aun no hayan pasado */
         console.log(`Tienesss ${anioActtt - aniodiv } años`);
     } else{
         console.log(`Tienesss ${anioActtt - aniodiv -1 } años`);
