@@ -80,7 +80,7 @@ const e4 = (n)=>{
 e4(3)
 
 /* intento de mostrar los numero que fueron sumados del ejercicio 4 */
-let numIn = new Number(prompt("Ingrese un número"));
+/* let numIn = new Number(prompt("Ingrese un número"));
 
 for (numIn ; numIn>0 ; numIn--) {
     document.write("<hr>" + numIn + "<hr>");
@@ -89,7 +89,7 @@ for (numIn ; numIn>0 ; numIn--) {
         arrayIn.push(i);
         document.write(arrayIn + "<br>");
     }
-}
+} */
 
 
 
