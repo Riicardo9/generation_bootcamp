@@ -21,7 +21,7 @@ $parr.textContent += "Hola mundo!" //+= lo añade
 
 /* innerHTML */
 console.log($parr.innerHTML);
-$parr.innerHTML='<a href="#">Este es un enlace</a>' //reemplaza incluyendo etiquetas (no pone etiquetas como contenido)
+// $parr.innerHTML='<a href="#">Este es un enlace</a>' //reemplaza incluyendo etiquetas (no pone etiquetas como contenido)
 
 
 /* outerHTML */
