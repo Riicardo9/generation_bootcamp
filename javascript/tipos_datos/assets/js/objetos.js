@@ -48,7 +48,7 @@ nuevaPersona.colorFavorito = "blanco";
 console.log(nuevaPersona.colorFavorito)
 
 /* un objeto basico ya tiene definido algunos metodos por default que se le pueden aplicar */
-console.log(nuevaPersona.hasOwnProperty("Edades") )/* pregunta si existe edad */
+console.log(nuevaPersona.hasOwnProperty("Edades"))/* pregunta si existe edad */
 console.log(Object.keys(nuevaPersona))/*  obtiene las llaves */
 console.log(Object.values(nuevaPersona))
 
