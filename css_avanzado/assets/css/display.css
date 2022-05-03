@@ -7,7 +7,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
 /* justify-content: ; */
 }
 
@@ -16,8 +15,6 @@
     height: 60px; 
     border: 1px solid black;
     margin-bottom: 2rem;
-    
-
 }
 
 .div1{

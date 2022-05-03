@@ -4,8 +4,9 @@ const $card = document.querySelector('.card')
 $form.addEventListener('submit', (e)=>{
     e.preventDefault(); //Evita que se recargue la pagina (por el evento submit)
 
-    //captura en automatico los valores del formulario y los asigna a la variable datos
-    const datos = Object.fromEntries(new FormData(e.target)) 
+    //obtiene en automatico los valores del formulario y los asigna a la variable datos
+    const datos = Object.fromEntries(
+        new FormData(e.target)) 
     
     // llamada a la funcion que crea elemento html se le pasan los parametros del formulario que requiere para crear elemento
     crearElemento(datos.url, datos.texto); 
