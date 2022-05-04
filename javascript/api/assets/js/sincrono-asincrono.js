@@ -7,8 +7,6 @@ setTimeout(()=>{
     let datos ="Ricardo"
     console.log(datos)
 }, tiempo)
-
-
 //console.log(datos)
 console.log("Hola")
 

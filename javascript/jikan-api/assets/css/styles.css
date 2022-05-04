@@ -1,0 +1,15 @@
+.card{
+    border: none;
+}
+
+
+/* si el titulo rebasa el tamaño se corta y añade tres puntos */
+.card-title{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+   /*  otro estilo (no recorta) */
+    font-size: 16px;
+
+}
