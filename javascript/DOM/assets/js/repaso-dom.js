@@ -24,9 +24,9 @@ $cuadro.innerHTML = `
 
 
 
-//Explicacion del uso del ultimo metodo para agregar elementos
-const estaciones = ['primavera', 'verano', 'otoño'] //suponiendo que recibimos datos de fuera
-const $lista = document.createElement('ul') 
+//Explicacion practica del uso del ultimo metodo para agregar elementos
+const estaciones = ['primavera', 'verano', 'otoño'] //simulando que recibimos datos de fuera
+const $lista = document.createElement('ul') //Se crea elemento padre
 
 estaciones.forEach(estacion => {
     const $li = document.createElement('li')

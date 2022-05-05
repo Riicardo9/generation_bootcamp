@@ -33,10 +33,11 @@ console.log(document)
 
 /* crear elementos */
 
+//Se selecciona el elemento padre
 const $card = document.querySelector('.card')
 function crearElemento(){
     const img = document.createElement('img'); //crea alemento img
     img.src = "https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/Que_debes_saber_antes_de_adoptar_un_gatito.jpg?itok=guFplHEU"; //se asigna la fuente al alemento creado
-    $card.appendChild(img); //apeendchild para agregar elemento (porque no se agrega nada solo al llamar la funcion), se le pone el hijo al padre
+    $card.appendChild(img); //apeendchild para agregar elemento (porque no se agrega nada solo al llamar la funcion), se requiere vincular el elemento creado a otro elemento que lo contenga (padre) - se le pone el hijo al padre
 }
 crearElemento();
