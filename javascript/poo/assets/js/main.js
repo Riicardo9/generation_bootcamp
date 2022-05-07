@@ -15,15 +15,13 @@ class Persona {
    /* Se usa un constructor para recibir valores por parametro (al usar new Persona desde afuera) y asignarlos sus respectivos atributos (sobreescribe)
     se usa this para indicarle que se refiere al atributo y el otro indica el parametro*/
     constructor (nombre,edad,correo){
-        
         this.#nombre = nombre;
         this.#edad = edad;
         this.#correo = correo;
         this.#id = ++Persona.#contador;  //se hace uso de una variable de control que aumenta cada que se 
-        
     }
 
-    //Setter Getters (fijar y obtener de variable privada)
+    //Setter Getters (fijar y obtener de propiedad privada)
     //se usan y se llaman como si fueran propiedad (sin parentesis afuera)
     //set solo permite un parametro, tambien permite arreglo pero lo tomo como string 
     get getNombre(){return this.#nombre;}
