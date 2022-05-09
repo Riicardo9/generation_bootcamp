@@ -10,7 +10,6 @@ const busquedaAnimes = document.getElementById('busquedaAnimes')
 /* se pone q porque en la documentacion dice que se usa para buscar por nombre, se  le pasa el valor a busar y se define que ordene*/
 const urlParaBuscar = `https://api.jikan.moe/v4/anime?q=${busquedaInff}&order_by=popularity`
 
-
 fetch(urlParaBuscar).then(resp => resp.json()).then(datos => {
     //console.log(datos.data)
 
