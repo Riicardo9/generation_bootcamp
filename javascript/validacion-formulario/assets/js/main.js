@@ -34,7 +34,7 @@ inputs.forEach((inp) => { //recorre cada elemento de tipo input, tambien se pued
 	inp.addEventListener('keyup', (e) => {
 		console.log(e.target.name) /* se imprime el nombre del campo en particular al que se le ingreso algo */
 
-		switch(e.target.name){ /* dependiendo del nombre del campo ejecuta instrucciones espcificas */
+		switch(e.target.name){ /* dependiendo del nombre del campo ejecuta instrucciones especificas */
 			case 'nombre':
 				console.log(e.target.value); //se imprime el valor de lo que el usuario introduce en el campo especifico
 				console.log(expresiones.nombre.test(e.target.value)); /* se manda a llamar el objeto que tiene la expresion regular y se usa para probar el valor del usuario ()*/
