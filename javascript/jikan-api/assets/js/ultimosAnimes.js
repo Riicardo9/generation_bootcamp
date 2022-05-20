@@ -21,7 +21,6 @@ fetch(urlUltimosAnimes).then(resp => resp.json().then(datos =>{
         /* se define la estructura a usar y se llena con el objeto, se agrega todo dentro de un enlace para que al darle click pueda mostrar mas info, para saber la iformacion espcifica del anime, se va a la pestaña de id */
         const template = `
                         <div class="col mb-4">
-                            
                             <a href="informacion.html?id=${datosNecesarios.id}">
                                 <div class="card" >
                                 <img src="${datosNecesarios.imagen}" class="card-img-top" alt="...">
