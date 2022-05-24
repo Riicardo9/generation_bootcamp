@@ -1,6 +1,8 @@
 package com.pokemon;
 
-public class Pokemon {
+//para clase abstraccta se agrega abstract, se debe poner metodo abstracto (antes de getter y setters)
+
+public abstract class Pokemon {
 	
 	//proytected nos permite pasar variables a los hijos pueden ver, pero no es correcto porque se rompe encapsulamiento
 	//USAR METODO GETTER Y SETTER tambien son heredables
@@ -23,6 +25,11 @@ public class Pokemon {
 		System.out.println(nombre + " Esta comiendo");
 	}
 	
+	//Polimorfismo por sobrecarag de datos
+	public void comer(String comida) {
+		System.out.println(nombre + " Esta comiendo " + comida);
+	}
+	
 	public void dormir() {
 		System.out.println(nombre + " zzzzzz");
 	}
@@ -30,6 +37,9 @@ public class Pokemon {
 	public void atacar() {
 		System.out.println(nombre + " Esta atacando");
 	}
+	
+	//metodo abstracto
+	public abstract void saludar(String mensaje);
 
 	public int getId() {
 		return id;

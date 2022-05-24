@@ -1,5 +1,5 @@
 package com.pokemon;
 
-public class TipoAgua {
+public interface TipoAgua {
 
 }
