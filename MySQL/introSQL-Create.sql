@@ -6,6 +6,7 @@ CREATE SCHEMA familia;
 
 USE familia;
 
+
 -- Se crea tabla persona, es necesario agregar minimo una columna
 -- cuando a un campo se le pone not null no es necesario agregar autoincrementable 
 -- por defecto el valor asignado es NULL (DEFAULT NULL, no es necesario poner)

@@ -8,6 +8,12 @@ body{
     position: relative;
 }
 
+h1{
+    /* position: relative;
+    top: 100px;
+    z-index: -1; /* se posisiona encima el elemento que tien mas cantidad */
+}
+
 .cuadro{
     width: 100px;
     height: 100px;
@@ -15,18 +21,18 @@ body{
     /* display: inline-block; */
 }
 
-h1{
-    /* position: relative;
-    top: 100px;
-    z-index: -1; /* se posisiona encima el elemento que tien mas cantidad */
+.padre{
+    width: 200px;
+    height: 200px;
+    position: relative;
 }
 
 .div1{
     background-color: aqua;
     position: static; /* ya viene por defecto */
     bottom: 100px;
-    
 }
+
 .div2{
     background-color: blueviolet;
     position:   sticky; /* sticky funciona tomando como referencia el padre (inicio) y necesita tope "top" abajo (fin)  *//* fixed;  cuando se hace scroll se mantiene fija como referencia toda la pagina*/
@@ -42,9 +48,5 @@ h1{
     position:
 }
 
-.padre{
-    width: 200px;
-    height: 200px;
-    position: relative;
-}
+
 
