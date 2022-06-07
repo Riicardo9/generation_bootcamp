@@ -24,20 +24,7 @@ SELECT customer_id, sum(amount) from payment group by customer_id order by SUM(a
 SELECT AVG(amount) as promedio FROM payment WHERE costumer_id = 1; 
 
 
-SELECT * FROM address;
-SELECT * FROM city;
-SELECT * FROM country;
 
-SELECT 
-country.country_id as ClavePais,
-country.country as Pais,
-city.city_id as ClaveCiudad,
-city.city as Ciudad,
-address.address as Direccion
-FROM country 
-INNER JOIN city ON country.country_id = city.country_id
-INNER JOIN address ON address.city_id = city.city_id
-ORDER BY ClaveCiudad;
 
 
 
