@@ -14,4 +14,10 @@ public class PersonaServiceImpl implements PersonaService{
 		return "El usuario " + nombre + " Ha sido registrado";
 		
 	}
+
+	@Override
+	public int calcular(int a, int b) {
+		// TODO Auto-generated method stub
+		return a + b;
+	}
 }

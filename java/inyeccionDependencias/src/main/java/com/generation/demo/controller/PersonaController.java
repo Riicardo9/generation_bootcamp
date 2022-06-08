@@ -16,7 +16,7 @@ import com.generation.demo.service.PersonaServiceImpl;
 public class PersonaController {
 	
 	
-	//instaciamos la clase para usar su metodo
+	//instaciamos la clase para usar sus metodos
 	private PersonaServiceImpl personaServiceImpl;
 	
 	
@@ -35,9 +35,14 @@ public class PersonaController {
 	
 	@GetMapping("/registro")
 	public String registro(@RequestParam(value="nombre", defaultValue="Desconocido")String nombre) {
-		
 		personaServiceImpl = new PersonaServiceImpl();
 		return personaServiceImpl.registro(nombre);
+	}
+	
+	
+	@GetMapping("/calcular")
+	public int Calcular(@RequestParam(value= "num1", defaultValue="0") int a, @RequestParam(value= "num2", defaultValue="0") int b) {
+		return personaServiceImpl.calcular(a, b);
 	}
 
 }
